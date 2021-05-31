@@ -1,0 +1,35 @@
+
+
+#draggable, #draggable2, #draggable3, #draggable4, #draggable5, #draggable6  
+{ 
+    border: none; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 0 10px 10px 0; 
+    background-color: transparent;
+}
+  
+
+#draggable:hover {
+    filter:drop-shadow(0 0 1.5rem #0000ff);
+     }
+
+#draggable2:hover {
+   filter:drop-shadow(0 0 1.5rem #0000ff);
+     }
+     
+#draggable3:hover {
+    filter:drop-shadow(0 0 1.5rem #0000ff);
+     }
+
+#draggable4:hover {
+   filter:drop-shadow(0 0 1.5rem #0000ff);
+     }
+     
+#draggable5:hover {
+    filter:drop-shadow(0 0 1.5rem #0000ff);
+     }
+
+#draggable6:hover {
+   filter:drop-shadow(0 0 0.5rem #0000ff);
+     }
