@@ -1,12 +1,6 @@
-
-
 * {
   
-  
-  /* 
- 
-  cursor: auto; 
-  */
+
   -webkit-font-smoothing: antialiased;
   -webkit-user-select: none;
   -moz-user-select: -moz-none;
@@ -21,37 +15,131 @@ body {
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
-  
-  
-}
-/*
-p{
-  padding-top: 7rem;
-  padding-left: 7rem;
-  margin: 1px 1px 1px 1px;
-  display: block;
-  
-  
+  place-items: center center;
   
 }
-*/
 
+
+h4 {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  padding-left: 20px; 
+  padding-right: 20px; 
+  margin: 10px;
+  font-family: 'Xanh Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9vw;
+  color: black;
+  line-height: 1.3;
+  text-align: left;
+  border: 1px solid black;
+  }
+
+
+#danisebas1, #danisebas2, #danisebas3, 
 #luis1, #luis2, #luis3, 
 #bibliografia1, #bibliografia2, #bibliografia3, 
-#danisebas1, #danisebas2, #danisebas3, 
-#about1, #about2, #about3, 
-#draggable, #draggable1, #draggable2, #draggable3, #draggable4, #draggable5, #draggable6, #draggable7, #draggable8, #draggable9, #draggable10, #draggable11, #draggable12, #draggable13  
+#about1, #about2, #about3 
+/* #draggable, #draggable1, #draggable2, #draggable3, #draggable4, #draggable5, #draggable6, #draggable7, #draggable8, #draggable9, #draggable10, #draggable11, #draggable12, #draggable13  */
   { 
-    left: 20%;
-    /*padding-top: 10%;*/
+    /* padding: 10px; */
     border: none;
     background-color: none;
-    display: flex;
-    align-items: center;
+    display: block;
+    align-items: center center;
+    place-items: center center;
     float: left;
     background-color: transparent;
   }
 
+
+
+  #danisebas2{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    display: block;
+  }
+
+  #danisebas3{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    display: block;
+  }
+
+  #danisebas1{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    display: block;
+  }
+
+
+  #luis3{
+    position: absolute;
+    top: 42%;
+    left: 39%;
+    display: block;
+  }
+
+  #luis2{
+    position: absolute;
+    top: 42%;
+    left: 44.8%;
+    display: block;
+  }
+
+  #luis1{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    display: block;
+  }
+
+  #bibliografia3{
+    position: absolute;
+    top: 49%;
+    left: 40%;
+    display: block;
+  }
+
+  #bibliografia1{
+    position: absolute;
+    top: 49%;
+    left: 44%;
+    display: block;
+  }
+
+  #bibliografia2{
+    position: absolute;
+    top: 49%;
+    left: 50.3%;
+    display: block;
+  }
+
+  #about2{
+    position: absolute;
+    top: 56%;
+    left: 39%;
+    display: block;
+  }
+
+  #about1{
+    position: absolute;
+    top: 56%;
+    left: 44.8%;
+    display: block;
+  }
+
+  #about3{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    display: block;
+  }
 
 #luis1:hover, #luis2:hover, #luis3:hover {
     filter: drop-shadow(0 0 0.1rem rgba(255, 0, 255, 0.5));
@@ -71,20 +159,12 @@ p{
     border-radius: 200px 200px 200px 200px;
 }
 
+
 #about1:hover, #about2:hover, #about3:hover {
   filter: drop-shadow(0 0 0.1rem rgba(0, 0, 255, 0.5));
   box-shadow: inset 0px 0px 5rem 1rem  rgba(0, 0, 255, 0.7)  ,  0px 0px 5rem 1.7rem  rgba(0, 0, 255, 1);
   border-radius: 200px 200px 200px 200px;
 }
-
-
-/* drop-shadow( offset-x offset-y blur-radius spread-radius color ) */
-
-/*
-#draggable:hover, #draggable1:hover, #draggable2:hover, #draggable3:hover, #draggable4:hover, #draggable5:hover, #draggable6:hover, #draggable7:hover, #draggable8:hover, #draggable9:hover, #draggable10:hover, #draggable11:hover, #draggable12:hover, #draggable13:hover {
-     filter:drop-shadow(0 0 0rem #fff); 
-     }
-*/
 
 
 .home {
