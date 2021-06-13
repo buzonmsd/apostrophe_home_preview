@@ -29,7 +29,7 @@ body {
     z-index: -1;
     pointer-events: none;
     overflow: hidden;
-    filter: drop-shadow(0 0 12rem rgba(255, 0, 0, 1));
+    filter: drop-shadow(0 0 10rem rgba(255, 0, 0, 1));
   }
   
   

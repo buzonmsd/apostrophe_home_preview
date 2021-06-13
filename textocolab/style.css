@@ -22,27 +22,6 @@
   }
 
 
-  .container  {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 88%;
-  }
-
-  .responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 5%;
-    bottom: 0;
-    right: 0;
-    width: 70%;
-    height: 43%;
-    padding: 9%;
-    display: center center;
-    align-content: center center;
-    filter: drop-shadow(0 0 10rem rgba(255, 0, 255, 0.3));
-    }
-
 .home {
       float: right;
       padding: 5px;
